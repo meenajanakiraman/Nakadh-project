@@ -1,0 +1,467 @@
+<navBar  class="w-full" ></navBar>
+
+<!-- Parent container -->
+<div class="w-full">
+  <!-- Hero Section -->
+  <div class="relative w-full h-auto bg-[#00574c] text-white px-6 pt-20 pb-40">
+  <div class="max-w-6xl mx-auto text-center md:text-left">
+    <div class="flex flex-col md:flex-row items-center justify-between">
+      <div class="mb-8 md:mb-0 max-w-lg">
+        <h1 class="text-5xl text-yellow-500 font-bold leading-snug">
+          Buy and Sell Digital –<br>
+          gold online instantly<br>
+          with a click
+        </h1>
+        <button class="mt-6 bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-2 font-semibold rounded shadow">
+          Buy Now
+        </button>
+      </div>
+    <img src="assets/digitalgoldbuy.png"
+     alt="gold in hand"
+     class="w-[300px] md:w-[400px] lg:w-[500px] h-auto object-contain" />
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Digital Gold Card -->
+ <div class="relative -mt-20 z-10 flex justify-center">
+  <div class="w-full max-w-4xl bg-white shadow-xl rounded-2xl overflow-hidden">
+
+    <!-- Yellow Header with Icon -->
+    <div class="flex items-center">
+      <!-- Green Icon Section -->
+      <div class="bg-green-900 p-4">
+        <img src="assets/buygold.png" alt="Gold Icon" class="w-15 h-10">
+      </div>
+
+     <div class="bg-yellow-400 flex items-center w-full px-6 py-4 text-2xl font-bold">
+  <div class="h-10 w-10 mr-2"></div>
+  Buy Digital Gold
+</div>
+
+    </div>
+
+
+    <!-- Content Area -->
+    <div class="flex flex-col md:flex-row justify-between p-6">
+
+      <!-- Left Side: Input & Buttons -->
+      <div class="flex-1">
+        <!-- Buy Options -->
+        <div class="flex gap-4 mb-4">
+          <label class="flex items-center gap-1">
+            <input type="radio" name="buyOption" checked>
+            Buy In Rupees
+          </label>
+          <label class="flex items-center gap-1">
+            <input type="radio" name="buyOption">
+            Buy In Grams
+          </label>
+        </div>
+
+        <!-- Input Field -->
+        <div class="flex items-center gap-2 mb-4">
+          <span class="text-xl">₹</span>
+          <input type="text" placeholder="0.0gm" class="border border-gray-300 px-4 py-2 rounded w-full max-w-xs">
+        </div>
+
+        <!-- Amount Buttons -->
+        <div class="flex gap-2 flex-wrap mb-4">
+          <button class="bg-gray-100 px-4 py-1 rounded font-semibold">+1000</button>
+          <button class="bg-gray-100 px-4 py-1 rounded font-semibold">+2000</button>
+          <button class="bg-gray-100 px-4 py-1 rounded font-semibold">+500</button>
+          <button class="bg-gray-100 px-4 py-1 rounded font-semibold">+100</button>
+        </div>
+
+        <!-- Proceed Button -->
+        <!-- <button class="bg-green-900 text-white px-6 py-2 rounded font-semibold">
+          Proceed to buy
+        </button> -->
+<button
+  class="bg-green-900 text-white px-6 py-2 rounded font-semibold"
+  (click)="proceedToSell()"
+>
+  Proceed to Buy
+</button>
+      </div>
+
+      <!-- Right Side: Price Info -->
+      <div class="flex-1 text-center mt-6 md:mt-0 md:ml-8">
+        <p class="text-gray-600 text-sm">Current Price</p>
+        <p class="text-2xl font-bold">₹8,720/gm</p>
+        <p class="text-sm text-green-700 mt-2">GST  3% is applicable</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- How it works Section -->
+<div class="mt-20 text-center px-4">
+  <h3 class="text-3xl md:text-4xl font-bold text-center mb-10 text-blue-900">Here’s, How it’s work</h3>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+     <!-- Box 1 -->
+<div class="bg-gray-50 rounded-lg shadow p-6 text-left">
+  <div class="flex items-center gap-2 mb-2">
+    <img src="assets/buygold.png" alt="Buy Digital Gold" class="w-15 h-12">
+    <h3 class="font-bold text-2xl">Buy Digital Gold</h3>
+  </div>
+   <hr class="my-2 border-t-2 border-black w-10">
+  <p class="text-lg text-gray-600">
+    Invest in 999.9 / 24K pure gold directly from MMTC-PAMP. India’s most trusted digital gold provider.
+  </p>
+</div>
+
+<!-- Box 2 -->
+<div class="bg-gray-50 rounded-lg shadow p-6 text-left">
+  <div class="flex items-center gap-3 mb-2">
+    <img src="assets/secure.png" alt="Secure Vault" class="w-15 h-12">
+    <h3 class="font-bold text-2xl">Store in a Secure Vault</h3>
+  </div>
+  <hr class="my-2 border-t-2 border-black w-10">
+  <p class="text-lg text-gray-600">
+    Your gold is physically allocated, fully insured, and securely stored in certified MMTC-PAMP vaults.
+  </p>
+</div>
+
+<!-- Box 3 -->
+<div class="bg-gray-50 rounded-lg shadow p-6 text-left">
+  <div class="flex items-center gap-3 mb-2">
+    <img src="assets/sell.png" alt="Sell Gold" class="w-15 h-12">
+    <h3 class="font-bold text-2xl">Sell Digital Gold</h3>
+  </div>
+  <hr class="my-2 border-t-2 border-black w-10">
+  <p class="text-lg text-gray-600">
+    Resell your products to MMTC-PAMP at live market rates with no commission. Get paid via Direct Bank Transfer.
+  </p>
+</div>
+
+<!-- Box 4 -->
+<div class="bg-gray-50 rounded-lg shadow p-6 text-left">
+  <div class="flex items-center gap-3 mb-2">
+    <img src="assets/delivery.png" alt="Easy Delivery" class="w-15 h-12">
+    <h3 class="font-bold text-2xl">Easy Delivery</h3>
+  </div>
+  <hr class="my-2 border-t-2 border-black w-10">
+  <p class="text-lg text-gray-600">
+    Shop MMTC-PAMP’s pure gold bars and coins in various weights with secure home delivery.
+  </p>
+</div>
+
+  </div>
+</div>
+
+<!-- Benefits Section -->
+<div class="mt-20 text-center px-4 mb-20">
+  <h3 class="text-3xl md:text-4xl font-bold text-center mb-10 text-blue-900">Benefits of investing in Digital Gold</h3>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+
+    <!-- Benefit 1 -->
+    <div class="flex flex-col items-center text-center">
+      <img src="assets/trust.png" alt="Trust" class="w-12 h-12 mb-3">
+      <h3 class="font-bold mb-2">Trust</h3>
+      <p class="text-m text-black-600">MMTC-PAMP gold prices are LBMA-linked and available 24/7, year-round.</p>
+    </div>
+
+    <!-- Benefit 2 -->
+    <div class="flex flex-col items-center text-center">
+      <img src="assets/flex.png" alt="Flexibility" class="w-12 h-12 mb-3">
+      <h3 class="font-bold mb-2">Flexibility</h3>
+      <p class="text-m text-black-600">Invest small amounts in gold over time to build a strong, secure financial portfolio.</p>
+    </div>
+
+    <!-- Benefit 3 -->
+    <div class="flex flex-col items-center text-center">
+      <img src="assets/affort.png" alt="Affordability" class="w-12 h-12 mb-3">
+      <h3 class="font-bold mb-2">Affordability</h3>
+      <p class="text-m text-black-600">Digital gold has wholesale rates, no making charges, and isn’t affected by local factors.</p>
+    </div>
+
+    <!-- Benefit 4 -->
+    <div class="flex flex-col items-center text-center">
+      <img src="assets/safety.png" alt="Safety" class="w-12 h-12 mb-3">
+      <h3 class="font-bold mb-2">Safety</h3>
+      <p class="text-m text-black-600">Your gold is insured, securely stored, and protected by UTSL.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w-full mb-20">
+  <picture>
+    <!-- Mobile image -->
+    <source srcset="./assets/nakadh_card_mobile.png" media="(max-width: 768px)">
+    <!-- Desktop image -->
+    <img src="assets/nakadh_card.png" alt="Nakadh Gold Coin" class="w-30 h-30 mx-auto">
+  </picture>
+</div>
+
+
+
+<div class="bg-gray-100 p-6 md:p-10">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-blue-900">
+    Frequently asked questions
+  </h2>
+
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- FAQ Section -->
+    <div class="md:col-span-2 space-y-4">
+      <!-- 1 -->
+      <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>What is gold loan ?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+            A gold loan is a loan in which the borrower offers a certain amount of gold against a loan amount (called loan-to-value or LTV) for a certain period of time.
+          </p>
+        </details>
+      </div>
+      <!--2-->
+      <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span> Is the digital gold I purchase physically stored?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+            Yes, every gram of digital gold you buy is backed by an equivalent amount of physical gold stored in secured vaults.          </p>
+        </details>
+      </div>
+<!-- 3 -->
+ <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span> How do I buy digital gold?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+            You can buy digital gold through our platform by entering the amount (in ₹ or grams) and completing the payment via UPI, net banking, debit/credit card, or wallet.          </p>
+        </details>
+      </div>
+<!-- 4 -->
+ <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>What is the minimum amount required to buy digital gold?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+           You can start investing in digital gold with  little          </p>
+        </details>
+      </div>
+      <!-- 5 -->
+       <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>Is GST applicable while buying digital gold?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+            Yes, 3% GST is applicable on the purchase value as per government regulations.          </p>
+        </details>
+      </div>
+
+
+    </div>
+
+    <!-- Right: Direct Mail Card -->
+    <div class="bg-gray-200 p-10 rounded-lg text-center shadow-sm">
+      <div class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-10 w-10 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16v16H4V4zm4 4l4 4 4-4" />
+        </svg>
+      </div>
+      <h3 class="font-semibold mb-2">Do you have more questions?</h3>
+      <p class="text-gray-600 text-sm mb-4">
+        End-to-end payments and financial management in a single solution. Meet the right platform to help realize.
+      </p>
+     <a
+  href="mailto:info@nakadh.com"
+  class="inline-block px-6 py-2 rounded-full bg-[#e4b600] text-black font-semibold border border-black text-lg text-center"
+>
+  Shoot a mail
+</a>
+    </div>
+
+  </div>
+</div>
+</div>
+<footerpage></footerpage>
+
+<!-- <p-dialog header="User Registration" [(visible)]="visible" [modal]="true" [style]="{ width: '50vw' }">
+    <div class="card flex justify-center">
+        <p-stepper [(value)]="activeStep" class="basis-[40rem]">
+            <p-step-list>
+                <p-step [value]="1">
+                    <ng-template #content let-activateCallback="activateCallback" let-value="value">
+                        <button class="bg-transparent border-0 inline-flex flex-col gap-2" (click)="activateCallback()">
+                            <span
+                                class="rounded-full border-2 w-12 h-12 inline-flex items-center justify-center"
+                                [ngClass]="{
+                                    'bg-primary text-primary-contrast border-primary': value <= activeStep,
+                                    'border-surface': value > activeStep
+                                }"
+                            >
+                                <i class="pi pi-user"></i>
+                            </span>
+                        </button>
+                    </ng-template>
+                </p-step>
+
+                <p-step [value]="2">
+                    <ng-template #content let-activateCallback="activateCallback" let-value="value">
+                        <button class="bg-transparent border-0 inline-flex flex-col gap-2" (click)="activateCallback()">
+                            <span
+                                class="rounded-full border-2 w-12 h-12 inline-flex items-center justify-center"
+                                [ngClass]="{
+                                    'bg-primary text-primary-contrast border-primary': value <= activeStep,
+                                    'border-surface': value > activeStep
+                                }"
+                            >
+                                <i class="pi pi-star"></i>
+                            </span>
+                        </button>
+                    </ng-template>
+                </p-step>
+
+                <p-step [value]="3">
+                    <ng-template #content let-activateCallback="activateCallback" let-value="value">
+                        <button class="bg-transparent border-0 inline-flex flex-col gap-2" (click)="activateCallback()">
+                            <span
+                                class="rounded-full border-2 w-12 h-12 inline-flex items-center justify-center"
+                                [ngClass]="{
+                                    'bg-primary text-primary-contrast border-primary': value <= activeStep,
+                                    'border-surface': value > activeStep
+                                }"
+                            >
+                                <i class="pi pi-check"></i>
+                            </span>
+                        </button>
+                    </ng-template>
+                </p-step>
+            </p-step-list>
+
+            <p-step-panels>
+
+<p-step-panel [value]="1">
+  <ng-template #content let-activateCallback="activateCallback">
+    <div class="flex flex-col items-center justify-center p-8 bg-white rounded-2xl shadow-lg max-w-md mx-auto">
+      <h2 class="text-2xl font-semibold text-center mb-2">Create Account</h2>
+      <p class="text-sm text-gray-500 mb-6 text-center">
+        Enter your email and password to create an account
+      </p>
+
+      <div class="w-full space-y-4">
+        <div>
+          <label class="text-sm font-medium block mb-1">Email Address</label>
+          <input
+            pInputText
+            type="email"
+            [(ngModel)]="email"
+            placeholder="jonathandoe237@example.com"
+            class="w-full p-2 rounded border border-gray-300"
+          />
+        </div>
+
+<div>
+  <label class="text-sm font-medium block mb-1">Password</label>
+  <input
+    type="password"
+    [(ngModel)]="password"
+    placeholder="Password"
+    class="w-full p-2 rounded border border-gray-300"
+  />
+</div>
+
+
+        <button
+          pButton
+          type="button"
+          label="Create Account"
+          class="w-full mt-4 bg-[#00574c] hover:bg-[#00574c] text-white py-2 rounded shadow"
+          (click)="activateCallback(2)"
+        ></button>
+
+        <p class="text-sm text-center mt-4 text-gray-600">
+          Have an account?
+          <a href="#" class="text-blue-600 font-medium hover:underline">Log In</a>
+        </p>
+      </div>
+    </div>
+  </ng-template>
+</p-step-panel>
+
+<p-step-panel [value]="2">
+  <ng-template #content let-activateCallback="activateCallback">
+    <div class="flex flex-col gap-4 p-4">
+      <h2 class="text-center text-lg font-semibold">Choose Purity in Gold</h2>
+
+      <div class="flex justify-center">
+        <p-selectButton
+          [options]="purityOptions"
+          [(ngModel)]="selectedPurity"
+          optionLabel="label"
+          optionValue="value"
+          [styleClass]="'w-full md:w-auto'"
+        ></p-selectButton>
+      </div>
+
+      <div class="flex justify-between pt-4">
+        <p-button label="Back" icon="pi pi-arrow-left" (onClick)="activateCallback(1)" />
+        <p-button label="Next" icon="pi pi-arrow-right" iconPos="right" (onClick)="activateCallback(3)" />
+      </div>
+    </div>
+  </ng-template>
+</p-step-panel>
+
+                <p-step-panel [value]="3">
+                    <ng-template #content let-activateCallback="activateCallback">
+                        <div class="flex flex-col gap-4 p-4 text-center">
+                            <h2 class="text-xl font-semibold">Success!</h2>
+                            <p>Your account has been created successfully.</p>
+                            <img src="https://primefaces.org/cdn/primeng/images/stepper/content.svg" alt="Success" class="mx-auto" width="150" />
+                            <p-button label="Back" icon="pi pi-arrow-left" (onClick)="activateCallback(2)" />
+                        </div>
+                    </ng-template>
+                </p-step-panel>
+            </p-step-panels>
+        </p-stepper>
+    </div>
+</p-dialog> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

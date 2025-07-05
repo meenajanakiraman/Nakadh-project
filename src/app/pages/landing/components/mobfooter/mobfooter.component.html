@@ -1,0 +1,15 @@
+<div class="mobile-footer fixed bottom-0 left-0 right-0 bg-[#00574C] text-white px-4 py-3 md:hidden">
+  <div class="text-sm mb-2">Enter your mobile number to apply for gold loan</div>
+  <div class="flex items-center bg-white px-2 py-1 rounded space-x-2">
+    <span class="text-black">+91</span>
+    <input
+      type="tel"
+      [(ngModel)]="mobile"
+      placeholder="Mobile number"
+      class="flex-1 bg-transparent outline-none text-black placeholder-gray-500"
+    />
+    <button (click)="sendEmail()" class="bg-yellow-400 hover:bg-yellow-500 text-xl text-black font-bold px-3 py-3 rounded">
+      Submit
+    </button>
+  </div>
+</div>

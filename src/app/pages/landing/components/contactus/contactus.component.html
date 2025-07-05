@@ -1,0 +1,234 @@
+<navBar></navBar>
+<div class="relative w-full h-screen z-0">
+  <!-- Background Image -->
+  <div class="relative w-full h-auto bg-[#00574c] text-white px-6 pt-20 pb-40">
+  <div class="max-w-6xl mx-auto text-center md:text-left">
+    <div class="flex flex-col md:flex-row items-center justify-between">
+      <div class="mb-8 md:mb-0 max-w-lg">
+        <!-- Contact Details Section -->
+        <div class="mb-8">
+                  <h1 class="text-5xl text-yellow-500 font-bold leading-snug">
+          Contact us
+        </h1>
+
+          <p class="text-sm mb-4">We'd love to hear from you — get in touch!</p>
+
+          <!-- Phone Number -->
+          <div class="flex items-center mb-3">
+            <div class="bg-yellow-400 p-2 rounded-full mr-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+            </div>
+            <span class="text-white">+91 915-915-8272</span>
+          </div>
+
+          <!-- Email -->
+          <div class="flex items-center mb-6">
+            <div class="bg-yellow-400 p-2 rounded-full mr-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <span class="text-white"><i class="pi pi-envelope"></i>
+  info&#64;nakadh.com</span>
+          </div>
+
+        </div>
+      </div>
+    <!-- <img src="assets/contacs.png"
+     alt="gold in hand"
+     class="w-[300px] md:w-[400px] lg:w-[500px] h-auto object-contain" /> -->
+
+    </div>
+  </div>
+
+
+  <!-- Centered Form (in middle-bottom of screen) -->
+ <div class="absolute left-1/2 transform -translate-x-1/2 top-[60%] w-full max-w-xl bg-white rounded-2xl shadow-xl p-8">
+  <h3 class="text-2xl font-bold mb-2">Get in touch</h3>
+  <p class="mb-6 text-gray-700">We are here for you! How can we help?</p>
+
+  <form (submit)="sendEmail($event)">
+    <div class="mb-4">
+      <input type="text" placeholder="Your Name" name="name" [(ngModel)]="form.name"
+        class="w-full px-4 py-3 border border-gray-300 rounded text-black placeholder-black hover:placeholder-gray-600 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+    </div>
+    <div class="mb-4">
+      <input type="text" placeholder="Your Mobile Number" name="mobile" [(ngModel)]="form.mobile"
+        class="w-full px-4 py-3 border border-gray-300 rounded text-black placeholder-black hover:placeholder-gray-600 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+    </div>
+    <div class="mb-4">
+      <input type="email" placeholder="Your Email Address" name="email" [(ngModel)]="form.email"
+        class="w-full px-4 py-3 border border-gray-300 rounded text-black placeholder-black hover:placeholder-gray-600 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+    </div>
+    <div class="mb-4">
+      <input type="text" placeholder="Your City" name="city" [(ngModel)]="form.city"
+        class="w-full px-4 py-3 border border-gray-300 rounded text-black placeholder-black hover:placeholder-gray-600 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+    </div>
+    <div class="mb-4">
+      <textarea placeholder="Your Query" name="query" [(ngModel)]="form.query" rows="3"
+        class="w-full px-4 py-3 border border-gray-300 rounded text-black placeholder-black hover:placeholder-gray-600 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+    </div>
+
+    <div class="mb-6">
+      <label class="block font-medium mb-2 text-black">Are you existing customer of Nakadh?</label>
+      <div class="flex items-center space-x-6">
+        <label class="inline-flex items-center text-black hover:text-gray-600">
+          <input type="radio" class="form-radio text-yellow-500" name="customer" [(ngModel)]="form.customer" value="yes">
+          <span class="ml-2">Yes</span>
+        </label>
+        <label class="inline-flex items-center text-black hover:text-gray-600">
+          <input type="radio" class="form-radio text-yellow-500" name="customer" [(ngModel)]="form.customer" value="no">
+          <span class="ml-2">No</span>
+        </label>
+      </div>
+    </div>
+
+    <button type="submit"
+      class="w-full bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 rounded-lg shadow transition duration-200">
+      Submit
+    </button>
+  </form>
+</div>
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<div class="bg-gray-100 p-6 md:p-10">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-blue-900">
+    Frequently asked questions
+  </h2>
+
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- FAQ Section -->
+    <div class="md:col-span-2 space-y-4">
+      <!-- 1 -->
+      <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>How can I contact customer support?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+           You can contact our customer support team through any of the following methods like phone, website and direct branch visit.
+          </p>
+        </details>
+      </div>
+      <!--2-->
+      <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>What information should I provide when contacting support?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+           To ensure a quick resolution, please provide the following details Full Name, Registered mobile number,Loan account no.
+          </p>
+        </details>
+      </div>
+<!-- 3 -->
+ <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>How long does it take to get a response from customer care ?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+            Our customer care team typically responds within 24 hours. However, in most cases, you can expect a reply within a few hours during working hours.
+          </p>
+        </details>
+      </div>
+<!-- 4 -->
+ <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>What are the additional fees that I will need to pay at the time of taking a loan?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+           You can track the status through Email update and also support call.
+          </p>
+        </details>
+      </div>
+      <!-- 5 -->
+       <div class="bg-white p-5 rounded-md shadow-sm">
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer font-semibold text-left list-none">
+            <span>Is support available on holidays?</span>
+            <svg class="w-5 h-5 text-gray-700 transition-transform duration-300 group-open:rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-gray-600">
+            Branches generally closed on public holidays. Telephonic support will be provided 24*7 and 365 days at NAKADH
+          </p>
+        </details>
+      </div>
+
+
+    </div>
+
+    <!-- Right: Direct Mail Card -->
+    <div class="bg-gray-200 p-10 rounded-lg text-center shadow-sm">
+      <div class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-10 w-10 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16v16H4V4zm4 4l4 4 4-4" />
+        </svg>
+      </div>
+      <h3 class="font-semibold mb-2">Do you have more questions?</h3>
+      <p class="text-gray-600 text-sm mb-4">
+        End-to-end payments and financial management in a single solution. Meet the right platform to help realize.
+      </p>
+     <a
+  href="mailto:info@nakadh.com"
+  class="inline-block px-6 py-2 rounded-full bg-[#e4b600] text-black font-semibold border border-black text-lg text-center"
+>
+  Shoot a mail
+</a>
+    </div>
+
+  </div>
+</div>
+
+
+<footerpage></footerpage>
