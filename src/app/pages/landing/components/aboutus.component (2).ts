@@ -22,7 +22,7 @@ import { AccordionModule } from 'primeng/accordion';
           <h3 class="text-xl font-bold mb-4">Gold Loans. Simplified.</h3>
           <p class="text-gray-800 mb-4">
             Nakadh Is Transforming How India Accesses Gold and gold Loans—<br>
-            With Ease, Trust, And Speed.
+            With Ease, Trust, And Speed and fast.
           </p>
           <p class="text-gray-800 mb-6">
             We Offer The Highest Per Gram Rate, Minimal KYC, And A Secure Process Backed By Bank-Level Gold Storage.
